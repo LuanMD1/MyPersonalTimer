@@ -1,43 +1,56 @@
 body {
-    background-color: rgb(60, 100, 202);
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    margin: 0;
 }
 
 .container {
-width: 70em;
-height: 30em;
-background: rgb(255, 255, 255);
-margin: 150px auto;
-border-radius: 20px;
-padding: auto;
-}
-
-p {
-    text-align: center;
-    color:rgb(53, 63, 68);
-    margin-top: 1em;
-    padding: 1em;
-    font-size: 4em;
-    color:rgb(226, 149, 85);
-    font-family: monospace;
-    font-style:oblique;
+    background: #fff;
     border-radius: 10px;
-  
-}
-
-h1 {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    font-size: 4em;
+    max-width: 400px;
+    padding: 20px;
 }
 
-button {
-    margin-left: 150px;
-    letter-spacing: 2px;
-    width: 14em;
-    height: 3.5em;
-    background-color:rgb(195, 195, 219);
+.titulo {
+    font-size: 28px;
+    color: #e29555;
+    margin: 0;
+}
+
+.timer {
+    font-size: 48px;
+    margin: 20px 0;
+    background: #e0e0e0;
     border-radius: 10px;
+    padding: 10px;
 }
 
-.pausado {
-    color:rgb(211, 57, 57);
+.controles {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #e29555;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn.iniciar {
+    background-color: #4caf50;
+}
+
+.btn.pausar {
+    background-color: #e53539;
 }

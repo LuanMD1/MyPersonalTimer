@@ -6,7 +6,6 @@ function rodarTimer(segundos) {
     timeZone: 'UTC',
     });
 }
-console.log(rodarTimer(10));
 
 const relogio = document.querySelector('.relogio');
 const iniciar = document.querySelector('.iniciar');
